@@ -1,4 +1,4 @@
-# *Zhanna Kozyreva*
+# **Zhanna Kozyreva**
 
 Email: zhanna321000@gmail.com
 
