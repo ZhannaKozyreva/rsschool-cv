@@ -43,4 +43,13 @@ body {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    color:rgb(176, 110, 238);
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    color:rgb(123, 6, 186);
+    text-decoration: underline;
 }
