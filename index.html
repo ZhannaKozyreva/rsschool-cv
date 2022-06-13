@@ -1,1 +1,106 @@
-Some text in html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> <!-- for navigation-->
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#aboutme" class="nav-link">About me</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#code" class="nav-link">Code examples</a></li>
+                    <li><a href="#work" class="nav-link">Work experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#english" class="nav-link">English level</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container main-container">
+
+            <section class="section" id="profile">
+                <img class="myphoto" alt="Avatar" src="./assets/myphoto.jpeg" width="200"/>
+                <h1 class="section-title">Zhanna Kozyreva</h1>
+                <p>Junior Researcher</p>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li>Email: zhanna321000@gmail.com</li>
+                        <li>Telegram: @Janettyx</li>
+                    </ul>
+            </section>    
+
+            <section class="section" id="aboutme">
+                <h2 class="section-title">About me</h2>
+                <p>Currently, I am a junior researcher at First Moscow State Medical University (Sechenov University).
+                Also, I am taking my Ph.D. at Skolkovo Institute of Science and Technology.
+                I have a lot of experience in making polymer drug delivery systems, nanoparticle synthesis and magnetic hyperthermia.
+                I am interested in programming and curious to learn more about frontend.</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <p>Basic level:</p>
+                    <ul class="skills-list">
+                        <li>python</li>
+                        <li>SQL</li>
+                        <li>java script</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code examples</h2>
+                    <code>
+                        function multiply(a, b){ <br>
+                             return a * b <br>
+                        }
+                    </code>
+                
+
+            </section>
+
+            <section class="section" id="work">
+                <h2 class="section-title">Work experience</h2>
+                    <p>Since 2020 - junior researcher at First Moscow State Medical University (Sechenov University).</p>
+                    <p><a href="https://zhannakozyreva.github.io/rsschool-cv/">My current progect</a></p>
+                </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                    <ul>
+                        <li>2013-2017 Bachelor's degree on the Physical Faculty of Lomonosov Moscow State University, Department of Acoustics.</li>
+                        <li>2017-2019 Master's degree on the Physical Faculty of Lomonosov Moscow State University, Department of Polymers and Crystals.</li>
+                        <li>Since 2020 Ph.D. student at Skolkovo Institute of Science and Technology, Department of Materials.</li>
+                    </ul>
+                <h3>Courses:</h3>
+                <ul>
+                    <li>Stepik "Programming on Python"</li>
+                </ul>
+            </section>
+
+            <section class="section" id="english">
+                <h2 class="section-title">English level</h2>
+                    <p>TOEFL test score: 101 which corresponds to the level C1.</p>
+            </section>   
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-container">
+        <p><a class="gh-link" href="https://github.com/ZhannaKozyreva">GitHub</a></p>
+        <p><a href="https://rs.school/js/"><img class="rightpic" alt="rsschool" src="./assets/rs_school_js.svg" width="100"/></a></p>
+        <p class>2022 by Zhanna Kozyreva</p>
+        </div>
+    </footer>
+</body>
+</html>
