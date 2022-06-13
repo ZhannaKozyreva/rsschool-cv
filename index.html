@@ -9,15 +9,15 @@
 </head>
 <body>
     <header> <!-- for navigation-->
-        <div class="container">
+        <div class="container header-container">
             <nav class="nav">
                 <ul class="nav-list">
                     <li><a href="#aboutme" class="nav-link">About me</a></li>
-                    <li><a href="skills" class="nav-link">Skills</a></li>
-                    <li><a href="code" class="nav-link">Code examples</a></li>
-                    <li><a href="work" class="nav-link">Work experience</a></li>
-                    <li><a href="education" class="nav-link">Education</a></li>
-                    <li><a href="english" class="nav-link">English level</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#code" class="nav-link">Code examples</a></li>
+                    <li><a href="#work" class="nav-link">Work experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#english" class="nav-link">English level</a></li>
                 </ul>
             </nav>
         </div>
@@ -26,10 +26,12 @@
         <div class="container main-container">
 
             <section class="section" id="profile">
+                <img class="myphoto" alt="Avatar" src="./assets/myphoto.jpeg" width="200"/>
                 <h1 class="section-title">Zhanna Kozyreva</h1>
+                <p>Junior Researcher</p>
             </section>
 
-            <section class="section" id="contacts"></section>
+            <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
                     <ul class="contacts-list">
                         <li>Email: zhanna321000@gmail.com</li>
@@ -42,7 +44,7 @@
                 <p>Currently, I am a junior researcher at First Moscow State Medical University (Sechenov University).
                 Also, I am taking my Ph.D. at Skolkovo Institute of Science and Technology.
                 I have a lot of experience in making polymer drug delivery systems, nanoparticle synthesis and magnetic hyperthermia.
-                I am interested in programming and would like to change my professional path.</p>
+                I am interested in programming and curious to learn more about frontend.</p>
             </section>
 
             <section class="section" id="skills">
@@ -59,10 +61,12 @@
 
             <section class="section" id="code">
                 <h2 class="section-title">Code examples</h2>
-
-                function multiply(a, b){
-                return a * b
-                }
+                    <code>
+                        function multiply(a, b){ <br>
+                             return a * b <br>
+                        }
+                    </code>
+                
 
             </section>
 
