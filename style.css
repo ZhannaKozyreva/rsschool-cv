@@ -54,6 +54,14 @@ body {
     margin-right: auto;
 }
 
+.footer-container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 0 40px;
+}
+
 .nav-list {
     display: flex;
     align-items: center;
@@ -72,4 +80,19 @@ body {
 .nav-link:hover {
     color:rgb(123, 6, 186);
     text-decoration: underline;
+}
+
+.rightpic {
+    float: right;
+    padding: 20px 0;
+}
+
+.gh-link {
+    font-size: 20px;
+    font-weight: 500;
+    color:blueviolet;
+}
+
+.gh-link:hover {
+    color:rgb(42, 0, 65);
 }
